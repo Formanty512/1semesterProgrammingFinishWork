@@ -1,0 +1,1 @@
+﻿string[] myarray = {"Hello", "=)", "567", "formant", "8", "some"} ;
