@@ -1,7 +1,7 @@
 ﻿string[] myarray = {"Hello", "=)", "567", "formant", "8", "some"} ;
 string[] newarray = new string[myarray.Length];
 
-void CheckSymbols(string[] myarray)
+void CheckSymbols(string[] myarray, string[] newarray)
 {
     int count = 0;
     for(int i = 0; i < myarray.Length; i++)
@@ -21,3 +21,5 @@ void CheckSymbols(string[] myarray)
     }
     Console.WriteLine();
  }
+
+
