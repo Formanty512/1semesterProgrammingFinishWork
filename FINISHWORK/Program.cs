@@ -22,4 +22,7 @@ void CheckSymbols(string[] myarray, string[] newarray)
     Console.WriteLine();
  }
 
+ CheckSymbols(myarray, newarray);
+ PrintArray(newarray);
+
 
